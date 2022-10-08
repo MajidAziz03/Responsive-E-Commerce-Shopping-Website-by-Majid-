@@ -1,0 +1,157 @@
+.heading-shop h3{
+    font-size: 32px;
+}
+
+.heading-shop p{
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.first-hold{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+    padding: 15px;
+}
+
+.first-hold .frst{
+    width: 100%;
+    padding: 15px;
+    background-color: silver;
+    border-radius: 15px;
+
+}
+
+.image-shop{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+
+
+
+.image-shop:hover img{
+    transform: translateY(-5%);
+}
+
+.image-shop img{
+    width: 100%;
+    height: 100%;
+}
+
+.content-shopping{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 9px 9px;
+}
+
+.stars{
+    display: flex;
+    gap: 0.5rem;
+    color: goldenrod;
+}
+
+.cart-go{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.carted{
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(10, 168, 10);
+}
+.carted:hover{
+    opacity: 1;
+}
+
+.cart-go p{
+    color: green;
+
+}
+
+.content-shopping .adidas{
+    color: lightcyan;
+}
+.content-shopping h5{
+    color: rgb(27, 26, 26);
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.heading-shop h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    margin-top: 20px;
+margin-bottom: 65px;
+position: relative;
+top: 22px;
+
+}
+
+.carted:hover i{
+    transform: translateY(-5%);
+    cursor: pointer;
+}
+
+.carted{
+    transition: all 0.4s ease;
+}
+
+.holder-anc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    gap: 1rem;
+    padding-bottom: 15px;
+}
+
+.holder-anc a{
+    background-color: teal;
+    padding: 5px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.holder-anc a:hover{
+    transform: translateY(-2%);
+}
+
+.holder-anc a.active{
+    border: 2px solid rgb(14, 75, 75);
+
+}
+
+.first-hold{
+    padding: 22px 22px;
+}

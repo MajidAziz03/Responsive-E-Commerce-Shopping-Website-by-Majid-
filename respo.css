@@ -1,0 +1,882 @@
+@media screen and (max-width: 1244px) and (min-width: 950px) {
+  nav .container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .bars {
+    cursor: pointer;
+  }
+
+
+  .links {
+    position: absolute;
+    right: -252px;
+    top: 110%;
+    flex-direction: column;
+    display: none;
+  }
+
+  .links a {
+    width: 200px;
+    height: auto;
+    background-color: silver;
+    border-bottom: 1px solid crimson;
+    text-align: center;
+    padding: 25px 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem teal;
+    animation: flip 2s ease forwards;
+  }
+
+  @keyframes flip {
+    from {
+      transform: rotateX(90deg);
+      opacity: 0;
+    }
+
+    to {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+  }
+
+  nav .container .bars {
+    display: flex;
+    position: absolute;
+    right: 22px;
+    font-size: 22px;
+  }
+
+  .close {
+    display: none;
+    transition: all 0.4s ease;
+  }
+
+  .cart-5 {
+    display: none;
+  }
+
+  .links a.active::before {
+    display: none;
+  }
+
+  /* **************** Shop ********* */
+
+  .shop-container .shop-all-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .shop-container .first-hold {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    padding: 12px 12px;
+  }
+
+  .shop-container .first-hold .frst:nth-child(4) {
+    display: none;
+  }
+
+  .shop-container .first-hold .frst {
+    width: 100%;
+  }
+
+  .base .basement-contact {
+    grid-template-columns: 13rem 10rem 10rem auto;
+    text-align: center;
+    padding-bottom: 22px;
+  }
+
+  .pic-contact {
+    display: none;
+  }
+
+  .add-contact {
+    margin-top: 12px;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    margin-bottom: 22px;
+  }
+
+  .add-contact h5 {
+    align-items: flex-start;
+  }
+  .cone {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .social {
+    text-align: center;
+  }
+
+  .social-holder {
+    justify-content: center;
+  }
+
+  .content-contact-base {
+    text-align: center;
+    margin-top: 22px;
+  }
+
+  .about-cone {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .one-contact {
+    /* padding: 12px; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+
+  .one-contact:nth-child(2) {
+    padding-top: 18px;
+  }
+
+  .one-contact:nth-child(3) {
+    padding-top: 18px;
+  }
+
+  .one-contact:nth-child(4) {
+    padding-top: 13px;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+  }
+  .install {
+    text-align: center;
+  }
+
+  .holder-cone {
+    text-align: center;
+    gap: 1rem;
+    font-size: 12px;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .play {
+    width: 70%;
+    height: auto;
+    /* background-color: green; */
+  }
+
+  .play-2 {
+    width: 75%;
+    height: auto;
+  }
+
+  .sec {
+    margin-top: 12px;
+  }
+
+  .pic-cone {
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 950px) and (min-width: 770px) {
+  nav .container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .links {
+    position: absolute;
+    right: -252px;
+    top: 110%;
+    flex-direction: column;
+    display: none;
+  }
+
+  .links a {
+    width: 200px;
+    height: auto;
+    background-color: silver;
+    border-bottom: 1px solid crimson;
+    text-align: center;
+    padding: 25px 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem teal;
+    animation: flip 2s ease forwards;
+  }
+
+  @keyframes flip {
+    from {
+      transform: rotateX(90deg);
+      opacity: 0;
+    }
+
+    to {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+  }
+
+  nav .container .bars {
+    display: flex;
+    position: absolute;
+    right: 22px;
+    font-size: 22px;
+  }
+
+  .close {
+    display: none;
+    transition: all 0.4s ease;
+  }
+
+  .cart-5 {
+    display: none;
+  }
+
+  .links a.active::before {
+    display: none;
+  }
+
+  nav .container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-2 {
+    width: 100%;
+  }
+
+  .container-2 .container-holder {
+    gap: 1rem;
+  }
+
+  .content-body {
+    position: absolute;
+    top: 230px;
+    /* background-color: yellowgreen; */
+    padding: 45px;
+  }
+
+  .shop-all-container .first-hold {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .first-hold .frst:nth-child(3) {
+    display: grid;
+  }
+
+  .cont-main-about {
+    grid-template-columns: auto auto;
+    display: block;
+    text-align: center;
+  }
+
+  .cont-main-about .left-abt {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .right-abt h4 {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-top-con {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .person {
+    padding: 75px 5px 12px 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    column-gap: 0.5rem;
+    overflow-x: hidden;
+    margin-top: 12px;
+  }
+
+  .team-person-1 {
+    width: 80%;
+    height: auto;
+  }
+
+  .hold-further {
+    width: 180px;
+    height: 190px;
+  }
+
+  .name-member {
+    left: 0;
+    right: 0;
+  }
+
+  .another-pra {
+    left: 0;
+    right: 0;
+  }
+
+  .so-team {
+    margin-top: 32px;
+  }
+
+  .top-contact {
+    width: 100%;
+    overflow-x: hidden;
+    gap: 3rem;
+    padding: 0;
+  }
+
+  .right-contact {
+    padding: 0;
+    margin-right: 2px;
+    /* background-color: green; */
+    width: 50%;
+    padding: 12px;
+  }
+
+  .right-contact input {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .base .basement-contact {
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    column-gap: 0.5rem;
+    width: 100%;
+    overflow-x: hidden;
+    height: auto;
+    padding: 12px 12px 12px 12px;
+  }
+
+  .base .one-contact {
+    height: max-content;
+    padding: 0 12px 12px 12px;
+  }
+
+  .base .one-contact:nth-child(1) {
+    margin-top: -12px;
+  }
+
+  .pic-cone {
+    width: 100%;
+    gap: 0.5rem;
+    padding: 0 12px;
+    height: auto;
+  }
+
+  .pic-cone .play {
+    width: 100%;
+  }
+
+  .pic-cone .play-2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .holder-cone {
+    padding: 12px 12px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bars {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 770px) and (min-width: 655px) {
+  nav .container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .links {
+    position: absolute;
+    right: -252px;
+    top: 110%;
+    flex-direction: column;
+    display: none;
+  }
+
+  .links a {
+    width: 200px;
+    height: auto;
+    background-color: silver;
+    border-bottom: 1px solid crimson;
+    text-align: center;
+    padding: 25px 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem teal;
+    animation: flip 2s ease forwards;
+  }
+
+  @keyframes flip {
+    from {
+      transform: rotateX(90deg);
+      opacity: 0;
+    }
+
+    to {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+  }
+
+  nav .container .bars {
+    display: flex;
+    position: absolute;
+    right: 22px;
+    font-size: 22px;
+  }
+
+  .close {
+    display: none;
+    transition: all 0.4s ease;
+  }
+
+  .cart-5 {
+    display: none;
+  }
+
+  .links a.active::before {
+    display: none;
+  }
+
+  nav .container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-2 {
+    width: 100%;
+  }
+
+  .container-2 .container-holder {
+    gap: 1rem;
+  }
+
+  .content-body {
+    position: absolute;
+    top: 230px;
+    padding: 45px;
+  }
+
+  .shop-all-container .first-hold {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  .shop-all-container .first-hold .frst:nth-child(4) {
+    display: grid;
+  }
+
+  .cont-main-about {
+    grid-template-columns: 1fr 1fr;
+    display: block;
+    text-align: center;
+  }
+
+  .left-abt {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-abt h4 {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-top-con {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .person {
+    padding: 75px 5px 12px 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    column-gap: 0.5rem;
+    overflow-x: hidden;
+    margin-top: 12px;
+  }
+
+  .team-person-1 {
+    width: 80%;
+    height: auto;
+  }
+
+  .hold-further {
+    width: 180px;
+    height: 190px;
+  }
+
+  .name-member {
+    left: 0;
+    right: 0;
+  }
+
+  .another-pra {
+    left: 0;
+    right: 0;
+  }
+
+  .so-team {
+    margin-top: 32px;
+  }
+
+  .add-contact{
+    align-items: flex-start;
+margin-left: -22px;
+  }
+
+
+  .top-contact {
+    width: 100%;
+    overflow-x: hidden;
+    gap: 3rem;
+    padding: 0;
+  }
+
+  .right-contact {
+    padding: 0;
+    margin-right: 2px;
+    /* background-color: green; */
+    width: 50%;
+    padding: 12px;
+  }
+
+  .right-contact input {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .base {
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .base .basement-contact {
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 0.5rem;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    padding: 12px 12px 12px;
+  }
+
+  .base .one-contact {
+    height: max-content;
+    padding: 0px 12px 12px 12px;
+    /* background-color: green;     */
+  }
+
+  .pic-cone {
+    width: 100%;
+    gap: 0.5rem;
+    padding: 0 12px;
+    height: auto;
+  }
+
+  .pic-cone .play {
+    width: 100%;
+  }
+
+  .pic-cone .play-2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .holder-cone {
+    padding: 12px 12px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pic-contact {
+    display: none;
+  }
+
+  .base .one-contact:nth-child(4) {
+    display: none;
+  }
+}
+
+
+/* ****************************************** mobile *********************************************** */
+
+
+
+
+@media screen and (max-width: 655px) {
+  nav .container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-body .container {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+  }
+
+  .links {
+    position: absolute;
+    right: -252px;
+    top: 115%;
+    flex-direction: column;
+    display: none;
+  }
+
+  .links a {
+    width: 200px;
+    height: auto;
+    background-color: silver;
+    border-bottom: 1px solid crimson;
+    text-align: center;
+    padding: 25px 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem teal;
+    border-radius: 15px;
+    animation: flip 2s ease forwards;
+  }
+
+  @keyframes flip {
+    from {
+      transform: rotateX(90deg);
+      opacity: 0;
+    }
+
+    to {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+  }
+
+  nav .container .bars {
+    display: flex;
+    position: absolute;
+    right: 22px;
+    font-size: 22px;
+  }
+
+  .close {
+    display: none;
+    transition: all 0.4s ease;
+  }
+
+  .cart-5 {
+    display: none;
+  }
+
+  .links a.active::before {
+    display: none;
+  }
+
+  nav .container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-body {
+    position: absolute;
+    top: 230px;
+    padding: 45px;
+    width: 100%;
+    height: auto;
+}
+
+
+.container-2 {
+    width: 100%;
+    height: auto;
+    padding : 0;
+    margin-bottom: 580px;
+}
+
+
+.container-2 .container-holder {
+flex-direction: column;
+width: 100%;
+height: auto;
+gap: 1rem;
+}
+
+
+
+.first-hold{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+.about-top-con{
+width: 100%;
+overflow-x: hidden;
+}
+
+.cont-main-about{
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.left-abt{
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.right-abt{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.right-abt h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 32px;
+}
+
+    .person{
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+
+.hold-further{
+left: 0;
+top: -180px;
+}
+
+
+    .person .hold-person{
+        margin-bottom: 55px;
+        
+    }
+
+    .hold-team{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;        
+    }
+
+.top-contact{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 1rem;
+    padding: 0;
+}
+
+.left-contact{
+    justify-content: start;
+    align-items: start;
+}
+
+
+.right-contact{
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    padding: 12px 12px;
+}
+
+.right-contact input{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.base .basement-contact{
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: auto;
+    column-gap: 0;
+    padding: 0 12px 12px 12px;
+}
+
+.basement-contact .one-contact{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+
+}
+
+.basement-contact .add-contact{
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 12px;
+
+}
+
+
+
+.one-contact:nth-child(1){
+    text-align: start;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    text-align: start;
+    margin-left: -32px;
+}
+
+.title1-contact-top{
+    margin-top: -145px;
+}
+
+.hold-all{
+  flex-direction: column;
+}
+
+.container-contact .hold-me{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.social{
+  margin-top: 16px;
+}
+}
+
+

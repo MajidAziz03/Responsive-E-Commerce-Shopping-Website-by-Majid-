@@ -1,0 +1,145 @@
+.container-cart{
+    padding: 45px ;
+}
+
+.one{
+    width: 100%;
+    height: 120px;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.one img{
+    width: 100%;
+}
+
+.container-hold-cart{
+    display: flex;
+    gap : 0.5rem;
+/* background-color: green; */
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 12px;
+width: 350px;
+cursor: pointer;
+
+}
+
+.one:hover{
+    width: 1000px;
+    height: 100%;
+}
+
+.one:hover img{
+    transform: translateY(-5%)
+
+}
+
+
+.pic-carted{
+    width: 330px;
+    height: 360px;
+    overflow: hidden;
+
+}
+
+.pic-carted img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.hold-pic-top{
+    width: 350px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+.hold-all{
+    display: flex;
+    gap: 2rem;
+}
+
+.right-carting{
+    color: grey;
+   font-size: 14px;
+   font-weight: 400;
+
+}
+
+.right-carted{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+
+}
+
+.right-carted h5{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+#size{
+width: 120px;
+height: 32px;
+}
+
+.inp input{
+width: 55px;}
+
+
+.hey{
+    margin-left: 12px;
+    padding: 13px 10px;
+    background-color: teal;
+    color: wheat;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.cart-new:hover{
+    background-color: teal;
+    color: black;
+    border: 2px solid teal;
+    box-shadow: 0 0 0.5rem teal;
+}
+
+
+.details-cart{
+    /* background-color: yellow; */
+    width: 70%;
+}
+
+.details-cart h4{
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.details-cart p{
+    letter-spacing: 1px;
+    color: rgb(36, 34, 34);
+}
+
+.prize{
+    color: green;
+}
+
+.pop-here{
+    font-size: 12px;
+color: green;
+}

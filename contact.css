@@ -1,0 +1,265 @@
+.container-contact{
+    width: 100%;
+    height: 100vh;
+}
+
+.title1-contact-top{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title1-contact-top h4{
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+
+
+.top-contact{
+    width: 100%;
+    height: 18vh;
+    padding: 15px;
+    display: flex;
+ justify-content: space-between;
+    align-items: center;
+    background-image: url(/images/sioLPa.jpg);
+    padding: 15px;
+
+
+}
+.left-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.left-contact p{
+    color: rgb(216, 211, 211);
+    font-size: 12px;
+    letter-spacing: 1px;
+    
+}
+.left-contact{
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+
+.right-contact{
+    padding-right: 25px;
+}
+
+.right-contact input{
+    padding: 9px 16px;
+    border-radius: 25px;
+    border: none;
+
+}
+
+.right-contact button{
+    padding: 7px 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: teal;
+    color: white;
+    transition:  all 0.3s ease;
+}
+
+.right-contact button:hover{
+transform: translate(1.3px);
+padding: 8px 20px;
+
+}
+
+
+.pic-contact{
+    display: none;
+}
+
+.base{
+    width: 100%;
+    height: 63%;
+    background-color: rgb(247, 242, 242);
+    overflow-x: hidden;
+}
+
+.basement-contact{
+    display: grid;
+    grid-template-columns: 22rem 15rem 15rem 22rem;
+    column-gap: 2rem;
+    padding: 15px;
+}
+
+
+.one-contact{
+    background-color: rgb(247, 242, 242);
+    width: 100%;
+    height: 55vh;
+
+}
+
+.holder-contact{
+    padding: 18px 35px;
+}
+
+.holder-contact .pic-contact{
+    width: 126px;
+    height: 100px;
+    /* background-color: yellow; */
+    overflow: hidden;
+
+}
+
+.holder-contact .pic-contact img{
+    width: 100%;
+}
+
+.content-contact-base .add-contact{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.add-contact .phere{
+    font-size: 14px;
+}
+
+.facebook{
+    color:  #3B5998;
+    font-size: 22px;
+}
+
+.twit{
+    color: #4285F4;
+    font-size: 22px;
+
+}
+
+.insta{
+color : #E50914;
+font-size: 22px;
+
+}
+
+
+
+.social h5{
+    font-size: 14px;
+
+}
+
+.social{
+    margin-top: 12px;
+}
+
+.social-holder{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 12px;
+
+}
+
+.content h5{
+    font-size: 14px;
+}
+
+.holder-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.holder-contact .pic-contact{
+    position: relative;
+    left:-12px;
+}
+
+.cone{
+    margin-bottom: 12px;
+}
+
+.about-cone a{
+    font-weight: 100;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(170, 163, 163);
+}
+.pic-cone{
+    display: flex;
+    gap: 1rem;
+}
+.play{
+    width:  190px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.play img{
+    width: 100%;
+}
+
+.holder-cone .spun{
+    width: 3.3rem ;
+    height: 2.6rem;
+    overflow: hidden;
+
+}
+
+.holder-cone .spun img{
+    width: 100%;
+}
+
+
+.holder-cone{
+    margin-top: 12px;
+    display: flex;
+    gap: 1rem;
+}
+
+.left-contact h2{
+    color: wheat;
+
+}
+
+.play-2{
+    width:  190px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.play-2 img{
+    width: 100%;
+}
+
+.social-holder i{
+    transition: all 0.4s ease;
+}
+.social-holder i:hover{
+    cursor: pointer;
+    transform: translateY(-20%);
+    font-size: 24px ;
+
+}
+
+.right-contact button{
+    cursor: pointer;
+}
+

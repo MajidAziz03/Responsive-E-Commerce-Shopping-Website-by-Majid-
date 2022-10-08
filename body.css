@@ -1,0 +1,200 @@
+.main-body .container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/baby-3036925_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.content-body{
+    /* background-color: yellow; */
+    padding-left: 115px;
+    position: relative;
+    top: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.content-body h6{
+    color: rgb(73, 71, 71);
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
+
+.content-body h1{
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: 800;
+
+
+}
+
+.content-body h1 span{
+    color: rgb(121, 99, 3);
+    font-weight: 800;
+
+} 
+
+
+.content-body p{
+    color: rgb(161, 153, 153);
+    
+}
+
+.content-body a{
+    padding: 10px 20px;
+    color: white;
+    background-color:crimson;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: all 0.4s ease;
+}
+
+.content-body a:hover{
+   background-color: transparent;
+   border: 2px solid crimson;
+   color: black;
+   transform: translate(5%);
+}
+
+
+
+/* ***************************** main body ******************************* */
+
+.main-body .container-2{
+    width: 100%;
+    height: 50vh;
+}
+
+
+.container-2{
+    padding-top: 42px ;
+}
+
+.container-2 .head{
+    color: white;
+    background-color: rgb(247, 123, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.box-1:nth-child(2) .head{
+    background-color: rgb(150, 150, 245);
+}
+
+.box-1:nth-child(3) .head{
+    background-color: rgb(132, 250, 142);
+}
+
+
+.box-pic{
+    width: 135px;
+    height: 135px;
+    overflow: hidden;
+    border-radius: 15px;
+    /* position: relative; */
+    /* left: 10px; */
+
+}
+
+.box-1:nth-child(2) .box-pic img{
+    /* background-color: green; */
+    height: 150px;
+}
+
+.box-1:nth-child(2) .box-pic img{
+    height: 100%;
+}
+
+.box-1:nth-child(3) .box-pic img{
+    /* background-color: green; */
+    height: 150px;
+    padding-top: 12px;
+}
+
+.box-1:nth-child(3) .box-pic img{
+    height: 100%;
+}
+
+
+.box-pic img{
+    width: 100%;
+}
+
+
+.container-2 .container-holder{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: blue; */
+    padding: 15px;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    /* background-color: green; */
+    width: 220px;
+    height: 100%;
+    padding-bottom: 25px;
+    border-radius: 10px;
+
+}
+
+.box-1:nth-child(1) .box-pic:hover{
+    width: 160px;
+    /* height: 40%; */
+    transform: translateY(-10%);
+    cursor: pointer
+}
+
+
+.box-1:nth-child(2) .box-pic:hover{
+    width: 160px;
+    /* height: 40%; */
+    transform: translateY(-10%);
+    cursor: pointer
+}
+
+.box-1:nth-child(3) .box-pic:hover{
+    width: 160px;
+    /* height: 40%; */
+    transform: translateY(-10%);
+    cursor: pointer
+}
+
+.box-1:nth-child(4) .box-pic:hover{
+    width: 160px;
+    /* height: 40%; */
+    transform: translateY(-10%);
+    cursor: pointer
+}
+
+
+
+.holder-cart{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
